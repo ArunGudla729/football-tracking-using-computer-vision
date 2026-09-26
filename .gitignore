@@ -1,0 +1,125 @@
+# Sports Analytics Intelligence System - Git Ignore File
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# IDE & Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.project
+.pydevproject
+.settings/
+*.code-workspace
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# Model Files (Large files)
+*.pt
+*.pth
+*.onnx
+*.weights
+models/*.pt
+models/*.pth
+
+# Data & Media Files
+input_videos/*.mp4
+input_videos/*.avi
+input_videos/*.mov
+output_videos/*.mp4
+output_videos/*.avi
+!output_videos/.gitkeep
+
+# Analytics Output
+analytics_output/
+!analytics_output/.gitkeep
+
+# Logs
+logs/
+*.log
+!logs/.gitkeep
+
+# Stub Files (Cached tracking data)
+stubs/
+*.pkl
+*.pickle
+!stubs/.gitkeep
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# Documentation
+docs/_build/
+site/
+
+# OS Generated
+Thumbs.db
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Temporary Files
+*.tmp
+*.temp
+*.cache
+tmp/
+temp/
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Compressed Files
+*.zip
+*.tar.gz
+*.rar
+
+# Training Data (Optional - uncomment if you want to ignore)
+# training/
+# datasets/
