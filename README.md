@@ -1,3 +1,4 @@
+
 # ⚽ Sports Analytics Intelligence System (SAIS)
 
 <div align="center">
@@ -307,9 +308,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ---
 
-## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
@@ -330,8 +329,10 @@ For questions, suggestions, or collaboration opportunities, please open an issue
 
 <div align="center">
 
-**Built with ❤️ for football analytics enthusiasts and AI researchers**
+
 
 ⭐ Star this repo if you find it useful!
 
 </div>
+=======
+
